@@ -39,15 +39,36 @@ END
 PRINT SQUARE(5)
 ```
 
+## Built-in Functions
+
+- **PRINT(value)**: Output text or numbers to the console
+- **LEN(string)**: Returns the length of a string
+- **RANDOM(min, max)**: Returns a random integer between min and max
+- **TO_INT(value)**: Converts a value to integer
+- **TO_FLOAT(value)**: Converts a value to float
+- **TO_STRING(value)**: Converts a value to string
+- **SQRT(value)**: Returns the square root of a number
+- **ABS(value)**: Returns the absolute value
+- **ROUND(value)**: Rounds a float to the nearest integer
+
+Example usage:
+```
+LET n = LEN("hello")
+PRINT RANDOM(1, 10)
+PRINT TO_STRING(123)
+PRINT SQRT(16)
+```
+
 ## Core Features
 
 1. **Commands**: PRINT, FORWARD, BACK, LEFT, RIGHT, CIRCLE, SET COLOR, REPEAT, END, LET, DEF, RETURN
 2. **Variables**: Only integer, float, and string types
 3. **Functions**: Simple function definition and call
-4. **REPEAT** for loops, no conditionals at first
-5. **All numbers are integer or float**
-6. **All strings in double quotes**
-7. **Immediate drawing (turtle graphics) and text output**
+4. **Built-in functions**: See above
+5. **REPEAT** for loops, no conditionals at first
+6. **All numbers are integer or float**
+7. **All strings in double quotes**
+8. **Immediate drawing (turtle graphics) and text output**
 
 ## Example Program
 
